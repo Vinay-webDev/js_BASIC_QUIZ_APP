@@ -42,9 +42,25 @@ body{
     text-align:left;
     border-radius: 5px;
     cursor:pointer;
+    transition: all 0.3s;
 }
-
-
+.btn:hover{
+    background: yellow;
+    color:black;
+}
+#next-btn {
+    background: pink;
+    color: black;
+    font-weight:600;
+    padding: 10px;
+    width: 150px;
+    margin: 20px auto 0;
+    border:0;
+    border-radius:5px;
+    text-align: center;
+    cursor:pointer;
+    display: none;
+}
 
 
 
