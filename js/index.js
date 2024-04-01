@@ -73,6 +73,10 @@ let questions = [
     }
 ];
 
+const questionElement = document.getElementById("questions");
+const optionButton = document.getElementById("options");
+const nextButton = document.getElementById("next-btn");
+
 
 
 
